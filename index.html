@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Corrugados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Corrugados</h1>
+        <div class="input-group">
+            <label for="paresInput">Digite a quantidade de pares:</label>
+            <input type="number" id="paresInput" placeholder="Ex: 100">
+        </div>
+        
+        <button onclick="calcularCorrugados()">Calcular</button>
+        
+        <div class="results-box">
+            <div class="result-group">
+                <span id="resultado1">0</span>
+                <p>pares (80%)</p>
+            </div>
+            
+            <div class="result-group">
+                <span id="resultado2">0</span>
+                <p>pares (30%)</p>
+            </div>
+            
+            <div class="result-group final">
+                <span id="corrugados">0</span>
+                <p>corrugados</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
